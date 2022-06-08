@@ -6,7 +6,7 @@ metadata:
   namespace: fleet-default
 instanceType: t3a.large
 region: {{ .Values.region | default "eu-west-3" | quote }}
-subnetId: {{ .Values.subnet | default "subnet-bc6c75d5" | quote }}
-vpcId: {{ .Values.vpc | default "vpc-7456a51c" | quote }}
+subnetId: {{ .Values.subnetId | default "subnet-bc6c75d5" | quote }}
+vpcId: {{ .Values.vpcId | default "vpc-7456a51c" | quote }}
 zone: {{ .Values.zone | default "a" | quote }}
 sshUser: ubuntu

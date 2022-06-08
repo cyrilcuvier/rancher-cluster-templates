@@ -10,3 +10,13 @@ questions:
   label: "CloudCredential Name"
   type: cloudcredential
   group: "General"
+- variable: subnetId
+  description: "subnetId of provisioned nodes"
+  label: "Subnet ID"
+  type: string
+  group: "General"
+- variable: vpcId
+  description: "vpcId of provisioned nodes"
+  label: "VPC ID"
+  type: string
+  group: "General"
