@@ -5,8 +5,8 @@ metadata:
   name: {{ $clustername }}-worker
   namespace: fleet-default
 instanceType: t3a.large
-region: {{ .Values.region | default "eu-west-3" | quote }}
-subnetId: {{ .Values.subnetId | default "subnet-bc6c75d5" | quote }}
-vpcId: {{ .Values.vpcId | default "vpc-7456a51c" | quote }}
+region: {{ .Values.region | quote }}
+subnetId: {{ .Values.subnetId | quote }}
+vpcId: {{ .Values.vpcId | quote }}
 zone: {{ .Values.zone | default "a" | quote }}
 sshUser: ubuntu

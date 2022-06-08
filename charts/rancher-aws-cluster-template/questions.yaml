@@ -10,13 +10,18 @@ questions:
   label: "CloudCredential Name"
   type: cloudcredential
   group: "General"
-- variable: subnetId
-  description: "subnetId of provisioned nodes"
-  label: "Subnet ID"
+- variable: region
+  description: "AWS Region"
+  label: "AWS Region"
   type: string
   group: "General"
 - variable: vpcId
-  description: "vpcId of provisioned nodes"
+  description: "AWS VPC Id"
   label: "VPC ID"
+  type: string
+  group: "General"
+- variable: subnetId
+  description: "Subnet Id of provisioned nodes"
+  label: "Subnet ID"
   type: string
   group: "General"
