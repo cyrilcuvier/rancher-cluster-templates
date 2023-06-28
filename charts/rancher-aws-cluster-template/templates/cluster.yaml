@@ -16,7 +16,7 @@ spec:
   {{- if .Values.cloudCredentialSecretName }}
   cloudCredentialSecretName: {{ .Values.cloudCredentialSecretName }}
   {{- end }}
-  kubernetesVersion: v1.22.6+rke2r1
+  kubernetesVersion: v1.24.15+rke2r1
   rkeConfig:
     machinePools:
     - controlPlaneRole: true
@@ -24,6 +24,9 @@ spec:
       workerRole: false
       quantity: 3
       name: {{ $clustername }}-controlplane
+      machineDeploymentAnnotations:
+        cluster.provisioning.cattle.io/autoscaler-min-size: "1"
+        cluster.provisioning.cattle.io/autoscaler-max-size: "3"
       machineConfigRef:
         kind: Amazonec2Config
         name: {{ $clustername }}-controlplane
