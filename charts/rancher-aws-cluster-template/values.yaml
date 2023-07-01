@@ -12,6 +12,5 @@ cluster:
 # specify cloud credential secret name, do not need to be provided if using custom driver
 cloudCredentialSecretName: "cattle-global-data:cc-cbrxq"
 region: "eu-west-1"
-subnetId: "subnet-00b37fe5996a8a825"
 vpcId: "vpc-0ec73487217ffcc91"
 kubernetesVersion: "v1.24.10+rek2r1"
