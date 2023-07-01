@@ -11,6 +11,6 @@ cluster:
 
 # specify cloud credential secret name, do not need to be provided if using custom driver
 cloudCredentialSecretName: ""
-region: "eu-west-3"
-subnetId: "subnet-bc6c75d5"
-vpcId: "vpc-7456a51c"
+region: "eu-west-1"
+subnetId: "subnet-00b37fe5996a8a825"
+vpcId: "vpc-0ec73487217ffcc91"
