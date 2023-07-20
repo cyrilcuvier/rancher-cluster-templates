@@ -13,4 +13,4 @@ cluster:
 cloudCredentialSecretName: "cattle-global-data:cc-cbrxq"
 region: "eu-west-1"
 vpcId: "vpc-0ec73487217ffcc91"
-kubernetesVersion: "v1.25.10+rke2r1"
+kubernetesVersion: "v1.24.13+rke2r1"
