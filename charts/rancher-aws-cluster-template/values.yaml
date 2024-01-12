@@ -11,5 +11,5 @@ cluster:
 
 # specify cloud credential secret name, do not need to be provided if using custom driver
 cloudCredentialSecretName: "cattle-global-data:cc-bzv2q"
-region: "eu-west-1"
+region: "eu-west-2"
 vpcId: "vpc-0ec73487217ffcc91"
