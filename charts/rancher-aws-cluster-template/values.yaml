@@ -1,7 +1,7 @@
 # cluster specific values
 cluster:
   # specify cluster name
-  name: mygitopscluster
+  name: leclusterduvendredi
 
   # specify cluster labels
   labels: {}
