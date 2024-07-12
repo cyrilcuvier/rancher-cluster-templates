@@ -16,7 +16,7 @@ spec:
   {{- if .Values.cloudCredentialSecretName }}
   cloudCredentialSecretName: {{ .Values.cloudCredentialSecretName }}
   {{- end }}
-  kubernetesVersion: v1.27.14+rke2r1
+  kubernetesVersion: v1.26.15+rke2r1
   rkeConfig:
     machinePools:
     - controlPlaneRole: true
