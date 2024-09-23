@@ -1,7 +1,7 @@
 # cluster specific values
 cluster:
   # specify cluster name
-  name: SUSE4PartnerLyon
+  name: suse4partnerlyon
 
   # specify cluster labels
   labels: {}
